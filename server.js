@@ -11,7 +11,7 @@ const session = require('express-session');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 const sess = {
-    secret: "Secret",
+    secret: "Super secret secret",
     cookie: {},
     resave: false,
     saveUninitialized: true,
@@ -34,8 +34,9 @@ app.use(express.urlencoded({
 }));
 app.use(routes);
 
-sequelize.sync();
 
 app.listen(PORT, () => {
     console.log(`App listening on port ${PORT}!`);
+
+    sequelize.sync({ force: false });
 });
