@@ -7,21 +7,26 @@
     <title>The Tech Blog</title>
     <link rel="stylesheet" href="/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans&family=Patrick+Hand&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <div class="wrapper">
         <header>
             <h1>
-                <a href="/">home</a>
+                <a href="/">Home Page</a>
             </h1>
             <nav>
                 {{#if loggedIn}}
-                <a href="/dashboard">dashboard</a>
-                <button id="logout" class="btn-no-style logout">logout</button>
+                <a href="/dashboard">Dashboard</a>
+                <button id="logout" class="btn-no-style logout">Logout</button>
                 {{else}}
-                <a href="/login">login</a>
+                <a href="/login">Login</a>
                 {{/if}}
             </nav>
         </header>

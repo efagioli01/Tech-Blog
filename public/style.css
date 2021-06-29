@@ -7,13 +7,14 @@ html {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+
     color:white;
 }
 
 main,
 .site-name {
-    background-color: #6dd4f3;
+    background-color: grey;
 }
 
 a,
@@ -30,37 +31,34 @@ a:hover,
 a {
     text-decoration: none;
     font-weight: bold;
-    transition: color .1s;
+    transition: color 0.5s;
 }
 
 button {
-    background-color: #225ca3;
+    background-color: lightslategray;
     border: 0;
-    padding: 1%;
+    padding: 1px;
     color: white;
     font-weight: bold;
-    transition: background-color .1s;
+    transition: background-color 0.5s;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 button:hover {
-    background-color: #3486eb;
+    background-color:lightslategray;
 }
 
 .post-list {
     margin: 0;
-    padding: 0;
+    padding: 20px;
     list-style-type: none;
 }
 
-.go-back {
-    color: white;
-}
 
 textarea,
 input {
-    padding: .5%;
+    padding: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
 }
@@ -68,7 +66,7 @@ input {
 textarea:focus,
 input:focus {
     outline: none;
-    border: 1px solid #3486eb;
+    border: 1px solid lightslategray;
 }
 
 textarea {
@@ -77,7 +75,7 @@ textarea {
 }
 
 form>div {
-    margin-bottom: 2%;
+    margin-bottom: 2px;
 }
 
 form label {
@@ -103,14 +101,14 @@ header,
 .site-row,
 .info-section,
 .form-heading {
-    background-color: #357ec2;
+    background-color:lightslategray;
 }
 
 .login-page,
 .sign-in-page,
 .new-form-page,
 .edit-form-page {
-    border: 3px dashed dodgerblue;
+    border: 3px dashed lightslategray;
     padding-bottom: 10px;
 }
 
@@ -135,7 +133,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1%;
+    padding: 0 1px;
 }
 
 header h1 {
@@ -144,7 +142,7 @@ header h1 {
 
 .site-row {
     display: flex;
-    border-bottom: 1px solid rgb(56, 116, 156);
+    border-bottom: 1px solid black;
     justify-content: center;
 }
 
@@ -157,7 +155,7 @@ header h1 {
 
 main {
     flex: 1;
-    padding: 2% 4%;
+    padding: 2px 4px;
 }
 
 .btn-no-style {
@@ -177,39 +175,57 @@ main {
 }
 
 .delete-post-btn {
-    background-color: #d41414;
+    background-color: lightsteelblue;
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+.update-post-btn {
+    background-color: lightsteelblue;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.add-comment-btn {
+    background-color: lightsteelblue;
+    font-size: 1.5em;
+    margin-right: 10px;
 }
 
 .delete-post-btn:hover {
-    background-color: #ff643d;
+    background-color: lightslategray
+}
+
+.go-back {
+    font-size: 1.5em;
+    color: darkslateblue
 }
 
 .post {
-    margin-bottom: 2%;
+    margin-bottom: 2px;
     line-height: 150%;
-    border: 3px solid black;
+    border: 3px solid grey;
     border-radius: 10px;
 }
 
 .post .title span {
-    font-style: italic;
-    font-size: 90%;
+    font-size: 16px;
     color: #7d7d7d;
 }
 
 .edit-link {
     display: block;
-    margin: -1.5% 0 2% 0;
-    color: #2c2307;
+    font-size: 1.5em;
+    color:darkslateblue;
 }
 
 .comment-form {
-    margin-bottom: 5%;
+    margin-bottom: 10px;
 }
 
 .comment {
-    padding: 1%;
-    margin-bottom: 1%;
+    padding: 1px;
+    margin-bottom: 1px;
     border-radius: 5px;
 }
 
@@ -219,9 +235,9 @@ main {
 }
 
 .comment .meta {
-    font-size: 90%;
-    margin-bottom: .5%;
-    opacity: .6;
+    font-size: 16px;
+    margin-bottom: 5px;
+    opacity: .5;
     border-radius: 5px;
 }
 
@@ -230,7 +246,7 @@ main {
 }
 
 .edit-post-form {
-    margin-bottom: 5%;
+    margin-bottom: 5px;
 }
 
 #comment-subtitle {
@@ -245,12 +261,14 @@ main {
 }
 
 #create-new-post {
-    width: 15%;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 2em;
 }
 
 .sign-in-link,
 .login-link {
-    color: #0b0ff3;
+    color: black
 }
 
 .form-heading h1,
