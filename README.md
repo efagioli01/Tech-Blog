@@ -49,6 +49,7 @@ The goal of this project was to build a CMS-style blog site similar where develo
 - then --> Open MYSQL workbench and exeute the schema
 - Run node server.js on the root
 - Open localhost 3001 
+- Navigate to Heroku to see it live there
 
 <br>
 
@@ -68,19 +69,22 @@ The goal of this project was to build a CMS-style blog site similar where develo
 ## Usage
 
 Open a browser and search for localhost:3001
+Open with Heroku link below and view the deployed application
 
 <br>
 
 ## Screenshot
  
- ![Screenshot](public/images/masksnip.PNG)
+ ![Screenshot](./images/techhw.PNG)
+ ![Screenshot](./images/techhw2.PNG)
+ ![Screenshot](./images/techhw3.PNG)
  
 <br>
 
 
 
 ## Github Repository
-[Github](https://github.com/abalcs/Masker-Aid)
+[Github](https://github.com/efagioli01/Tech-Blog)
 
 <br>
 
@@ -101,7 +105,7 @@ Tutor - Morgan Splawn
 ## MIT License
 
 
-Copyright (c) [2021] [Alan Balcom]  [Erica Fagioli] [James Clark] 
+Copyright (c) [2021] [Erica Fagioli] 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
